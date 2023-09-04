@@ -2,19 +2,19 @@ import { siteConfig } from './lib/site-config'
 
 export default siteConfig({
   // the site's root Notion page (required)
-  rootNotionPageId: 'e4252b0ee71b43c8b02938ec715037e5',
+  rootNotionPageId: 'a8ab246430a74c148a5e568e1f925c87',
 
   // if you want to restrict pages to a single notion workspace (optional)
   // (this should be a Notion ID; see the docs for how to extract this)
   rootNotionSpaceId: null,
 
   // basic site info (required)
-  name: 'Chaindesk.ai - Blog',
-  domain: 'www.chaindesk.ai/blog',
+  name: 'Chaindesk.ai - Help Center',
+  domain: 'www.chaindesk.ai/help',
   author: 'Georges Petrov',
 
   // open graph metadata (optional)
-  description: 'Blog - Chaindesk.ai - Build your own ChatBPT bot',
+  description: 'Help Center - Chaindesk.ai - Build your own ChatBPT bot',
 
   // social usernames (optional)
   twitter: 'chaindesk_ai',
